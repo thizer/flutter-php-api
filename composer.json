@@ -1,0 +1,10 @@
+{
+    "name": "prescott/youtube",
+    "description": "A youtube video",
+    "type": "project",
+    "require": {
+        "braghim-sistemas/suitup-php": "dev-master"
+    },
+    "license": "private",
+    "minimum-stability": "dev"
+}
