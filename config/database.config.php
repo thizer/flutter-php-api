@@ -1,7 +1,8 @@
 <?php
 return array(
-  'host' => 'localhost',
-  'database' => 'teste',
+  'adapter' => 'mysql',
+  'host' => '192.168.15.36',
+  'dbname' => 'test',
   'username' => 'youtube',
   'password' => '142536',
 );

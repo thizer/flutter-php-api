@@ -3,7 +3,7 @@
     "description": "A youtube video",
     "type": "project",
     "require": {
-        "braghim-sistemas/suitup-php": "dev-master"
+        "braghim-sistemas/suitup-php": "^2"
     },
     "license": "private",
     "minimum-stability": "dev"
