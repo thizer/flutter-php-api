@@ -28,7 +28,7 @@ class IndexController extends AbstractController
     $carroBo = new \ModuleDefault\Model\CarroBusiness();
     $item = $carroBo->get($id);
 
-    return $this->ajax($item);
+    return $this->ajax($item ? $item : array());
   }
 
   public function createAction() {
